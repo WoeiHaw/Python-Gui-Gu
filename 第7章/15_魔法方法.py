@@ -2,9 +2,9 @@
 # 特点：不需要我们手动调，我们只要准备好这些方法，Python会在特定场景下，去自动调用
 class Person:
     def __init__(self, name, age, gender):
-        self.name = name  # 公有属性：当前类中，子类中，类外部，都可以访问
-        self.age = age  # 受保护的属性：当前类中，子类中，都可访问
-        self.gender = gender  # 私有属性：仅能在当前类中访问
+        self.name = name
+        self.age = age
+        self.gender = gender
 
     def __str__(self):
         return f"{self.name}-{self.age}-{self.gender}"
