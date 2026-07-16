@@ -69,3 +69,4 @@ from collections import Counter
 name = ["张三","李四","王五","李华","张三","李四","张三","王五"]
 result = Counter(name)
 print(result)
+
